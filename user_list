@@ -11,7 +11,7 @@ clear
 echo -e ""
 echo -e " == FlaSSH == " | lolcat -a
 echo -e "  List Member " | lolcat
-echo -e " Nama Pengguna     Masa Aktif"
+echo -e " Nama Pengguna \t\t Masa Aktif"
 echo " "
 while read Checklist
 do
@@ -20,7 +20,7 @@ do
         ID="$(echo $Checklist | grep -v nobody | cut -d: -f3)"
         Exp="$(chage -l $Account | grep "Account expires" | awk -F": " '{print $2}')"
         if [[ $ID -ge $UIDN ]]; then
-        echo -e " $Account   " "   $Exp"
+        echo -e " $Account \t\t\t" "$Exp"
         fi
 done < /etc/passwd
 No_Users="$(awk -F: '$3 >= '$UIDN' && $1 != "nobody" {print $1}' /etc/passwd | wc -l)"

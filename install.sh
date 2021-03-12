@@ -1,10 +1,10 @@
 #!/bin/bash
 cd /usr/local/sbin
 rm accounts
-rm base_ports
-rm base_ports-wc
-rm base_script
-rm clear_cache
+rm base-ports
+rm base-ports-wc
+rm base-script
+rm clearcache
 rm connections
 rm create
 rm create_random
@@ -37,10 +37,10 @@ rm user_unlock
 cd
 cd menu
 mv accounts /usr/local/sbin/accounts
-mv base_ports /usr/local/sbin/base_ports
-mv base_ports_wc /usr/local/sbin/base_ports-wc
-mv base_script /usr/local/sbin/base_script
-mv clear_cache /usr/local/sbin/clear_cache
+mv base-ports /usr/local/sbin/base-ports
+mv base-ports_wc /usr/local/sbin/base-ports-wc
+mv base-script /usr/local/sbin/base-script
+mv clearcache /usr/local/sbin/clearcache
 mv connections /usr/local/sbin/connections
 mv create /usr/local/sbin/create
 mv create_random /usr/local/sbin/create_random
@@ -77,9 +77,9 @@ chmod +x base-ports
 
 chmod +x base-ports-wc
 
-chmod +x base script
+chmod +x base-script
 
-chmod +x clear-cache
+chmod +x clearcache
 
 chmod +x connections
 

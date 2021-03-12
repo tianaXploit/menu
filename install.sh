@@ -1,44 +1,44 @@
 #!/bin/bash
-cd /usr/local/sbin
-rm accounts
-rm base-ports
-rm base-ports-wc
-rm base-script
-rm clearcache
-rm connections
-rm create
-rm create_random
-rm create_trial
-rm delete_expired
-rm diagnose
-rm edit_dropbear
-rm edit_openssh
-rm edit_openvpn
-rm edit_ports
-rm edit_squid3
-rm edit_stunnel4
-rm locked_list
-rm menu
-rm options
-rm reboot_sys
-rm reboot_sys_auto
-rm restart_service
-rm server
-rm set_multilogin_autokill
-rm set_multilogin_autokill_lib
-rm show_ports
-rm user_delete
-rm user_details
-rm user_details_lib
-rm user_extend
-rm user_list
-rm user_lock
-rm user_unlock
+clear
+rm /usr/local/sbin/accounts
+rm /usr/local/sbin/base-ports
+rm /usr/local/sbin/base-ports-wc
+rm /usr/local/sbin/base-script
+rm /usr/local/sbin/clearcache
+rm /usr/local/sbin/connections
+rm /usr/local/sbin/create
+rm /usr/local/sbin/create_random
+rm /usr/local/sbin/create_trial
+rm /usr/local/sbin/delete_expired
+rm /usr/local/sbin/diagnose
+rm /usr/local/sbin/edit_dropbear
+rm /usr/local/sbin/edit_openssh
+rm /usr/local/sbin/edit_openvpn
+rm /usr/local/sbin/edit_ports
+rm /usr/local/sbin/edit_squid3
+rm /usr/local/sbin/edit_stunnel4
+rm /usr/local/sbin/locked_list
+rm /usr/local/sbin/menu
+rm /usr/local/sbin/options
+rm /usr/local/sbin/reboot_sys
+rm /usr/local/sbin/reboot_sys_auto
+rm /usr/local/sbin/restart_service
+rm /usr/local/sbin/server
+rm /usr/local/sbin/set_multilogin_autokill
+rm /usr/local/sbin/set_multilogin_autokill_lib
+rm /usr/local/sbin/show_ports
+rm /usr/local/sbin/user_delete
+rm /usr/local/sbin/user_details
+rm /usr/local/sbin/user_details_lib
+rm /usr/local/sbin/user_extend
+rm /usr/local/sbin/user_list
+rm /usr/local/sbin/user_lock
+rm /usr/local/sbin/user_unlock
 cd
 cd menu
 mv accounts /usr/local/sbin/accounts
 mv base-ports /usr/local/sbin/base-ports
-mv base-ports_wc /usr/local/sbin/base-ports-wc
+mv base-ports-wc /usr/local/sbin/base-ports-wc
 mv base-script /usr/local/sbin/base-script
 mv clearcache /usr/local/sbin/clearcache
 mv connections /usr/local/sbin/connections
@@ -58,7 +58,7 @@ mv menu /usr/local/sbin/menu
 mv options /usr/local/sbin/options
 mv reboot_sys /usr/local/sbin/reboot_sys
 mv reboot_sys_auto /usr/local/sbin/reboot_sys_auto
-mv restart_service /usr/local/sbin/restart_service
+mv restart_services /usr/local/sbin/restart_services
 mv server /usr/local/sbin/server
 mv set_multilogin_autokill /usr/local/sbin/set_multilogin_autokill
 mv set_multilogin_autokill_lib /usr/local/sbin/set_multilogin_autokill_lib

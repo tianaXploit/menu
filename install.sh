@@ -115,7 +115,7 @@ chmod +x reboot_sys
 
 chmod +x reboot_sys_auto
 
-chmod +x restart_service
+chmod +x restart_services
 
 chmod +x server
 

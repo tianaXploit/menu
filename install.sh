@@ -1,10 +1,10 @@
 #!/bin/bash
 cd /usr/local/sbin
 rm accounts
-rm base-ports
-rm base-ports-wc
-rm base script
-rm clear-cache
+rm base_ports
+rm base_ports-wc
+rm base_script
+rm clear_cache
 rm connections
 rm create
 rm create_random

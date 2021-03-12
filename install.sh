@@ -22,7 +22,7 @@ rm /usr/local/sbin/menu
 rm /usr/local/sbin/options
 rm /usr/local/sbin/reboot_sys
 rm /usr/local/sbin/reboot_sys_auto
-rm /usr/local/sbin/restart_service
+rm /usr/local/sbin/restart_services
 rm /usr/local/sbin/server
 rm /usr/local/sbin/set_multilogin_autokill
 rm /usr/local/sbin/set_multilogin_autokill_lib

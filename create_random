@@ -7,8 +7,8 @@ echo -e "$TITLE"
 echo -e ""
 echo -e "\e[32m Membuat Akun Acak\e[0m"
 echo -e ""
-read -p $'\e[32m  Number of Users to be Created: \e[0m' No_User
-read -p $'\e[32m  Active Days of each Users: \e[0m' Days
+read -p $'\e[32m  Berapa banyak yang harus dibuat: \e[0m' No_User
+read -p $'\e[32m  Berapa hari akun acak ini aktif: \e[0m' Days
 echo -e ""
 echo -e ""
 sleep 1

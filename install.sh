@@ -140,5 +140,6 @@ chmod +x user_lock
 chmod +x user_unlock
 
 cd
+apt install figlet
 
 exit
